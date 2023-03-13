@@ -7,6 +7,24 @@
     <title>U2-D11</title>
   </head>
   <body>
+    <form>
+      <label for="pet-name">Pet Name:</label>
+      <input type="text" id="pet-name" name="petName" /><br />
+
+      <label for="owner-name">Owner Name:</label>
+      <input type="text" id="owner-name" name="ownerName" /><br />
+
+      <label for="species">Species:</label>
+      <input type="text" id="species" name="species" /><br />
+
+      <label for="breed">Breed:</label>
+      <input type="text" id="breed" name="breed" /><br />
+
+      <button type="button" onclick="addPet()">Add Pet</button>
+    </form>
+
+    <ul id="pet-list"></ul>
+
     <script src="index.js"></script>
   </body>
 </html>
